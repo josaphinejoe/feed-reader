@@ -23,5 +23,7 @@ I learned how to use Jasmine to write a number of tests against a pre-existing a
 ## How to run
 * Choose any browsers as you wish and open the 'index.html'.
 * Some additional network requests are made.
+* So, it take some time to load completely.
+* The test results are displayed at the bottom of the page, once it is loaded.
 
 
