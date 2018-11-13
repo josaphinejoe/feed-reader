@@ -14,13 +14,18 @@ I learned how to use Jasmine to write a number of tests against a pre-existing a
 ## How will this help my career?
 
 * Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
+* Good tests give me the ability to quickly analyze whether new code breaks an existing feature within our codebase, without having to manually test all of the functionality.
+
+
 #  Technologies Used
 
 - Jasmine
 - jQuery
 - HTML5/CSS3
+
+
 ## How to run
+
 * Choose any browsers as you wish and open the 'index.html'.
 * Some additional network requests are made.
 * So, it take some time to load completely.
