@@ -20,5 +20,7 @@ I learned how to use Jasmine to write a number of tests against a pre-existing a
 - Jasmine
 - jQuery
 - HTML5/CSS3
+## How to run
+* Choose any browsers as you wish and open the 'index.html'.
 
 
