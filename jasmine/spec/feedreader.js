@@ -46,9 +46,9 @@ $(function() {
          */
          it('name is defined and is not empty', function() {
              allFeeds.forEach(function(feed) {
-                 name = feed.name;
-                 expect(name).toBeDefined();
-                 expect(name.length).not.toBe(0);
+              
+                 expect(feed.name).toBeDefined();
+                 expect(feed.name.length).not.toBe(0);
              });
          });
     });
@@ -69,12 +69,11 @@ $(function() {
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
-          it(' visibility on click', function() {
-             $('a.menu-icon-link').trigger('click'); // show menu
-             expect($('.menu-hidden').is(':visible')).toBe(false);
-
-             $('a.menu-icon-link').trigger('click'); // hide menu again
-             expect($('.menu-hidden').is(':visible')).toBe(true);
+          it('toggles visibility on click', function() {
+            $('a.menu-icon-link').trigger('click'); // show menu
+            expect($('body').hasClass('menu-hidden')).toBe(false);
+            $('a.menu-icon-link').trigger('click'); // hide menu again
+            expect($('body').hasClass('menu-hidden')).toBe(true);
           });
      });
 
